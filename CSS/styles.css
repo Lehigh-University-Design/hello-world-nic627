@@ -1,0 +1,27 @@
+body { /* modifying the body element*/
+    background-color: black;
+    color: white; 
+    /*cascading */
+    h1{ /*referencing the h1 in body to be*/
+        color: plum; 
+    }
+    h2{
+        color:rgb(191, 136, 255)
+    }
+      
+    
+}
+.firstCat{
+    color:deeppink;
+}
+.secondCat{
+    color: pink;
+}
+/*from shrub.html */
+.dog1{
+    color:rgb(255, 214, 127)
+}
+
+a{
+    color:rgb(127, 191, 255);
+}
