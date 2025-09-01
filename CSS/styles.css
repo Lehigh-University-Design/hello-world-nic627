@@ -3,7 +3,7 @@ body { /* modifying the body element*/
     color: white; 
     /*cascading */
     h1{ /*referencing the h1 in body to be*/
-        color: plum; 
+        color: rgb(201, 50, 106); 
     }
     h2{
         color:rgb(191, 136, 255)
@@ -24,7 +24,7 @@ body { /* modifying the body element*/
 }
 
 a{
-    color:rgb(127, 191, 255);
+    color:rgb(218, 183, 255);
 }
 
 /*Animation for HELLO WORLD! in index.html*/
@@ -45,3 +45,10 @@ a{
     scale: 100% 1;
   }
 }
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
