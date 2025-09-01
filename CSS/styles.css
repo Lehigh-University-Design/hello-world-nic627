@@ -1,5 +1,5 @@
 body { /* modifying the body element*/
-    background-color: black;
+    background-image: url('https://substackcdn.com/image/fetch/$s_!r78D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6070e114-9e3e-42ef-9500-080edadc3dd1_778x644.png');
     color: white; 
     /*cascading */
     h1{ /*referencing the h1 in body to be*/
@@ -10,10 +10,11 @@ body { /* modifying the body element*/
     }
       
     
-}
+} /*From index */
 .firstCat{
     color:deeppink;
 }
+/*From index */
 .secondCat{
     color: pink;
 }
@@ -24,4 +25,23 @@ body { /* modifying the body element*/
 
 a{
     color:rgb(127, 191, 255);
+}
+
+/*Animation for HELLO WORLD! in index.html*/
+.slide-in {
+  animation-duration: 3s;
+  animation-name: slide-in;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+@keyframes slide-in {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
 }
