@@ -1,5 +1,5 @@
 body { /* modifying the body element*/
-    background-image: url('https://substackcdn.com/image/fetch/$s_!r78D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6070e114-9e3e-42ef-9500-080edadc3dd1_778x644.png');
+    background-image: url('https://static.vecteezy.com/system/resources/previews/016/348/270/non_2x/tunnel-of-concentric-hearts-romantic-cute-background-pink-aesthetic-hearts-backdrop-illustration-vector.jpg');
     color: white; 
     /*cascading */
     h1{ /*referencing the h1 in body to be*/
@@ -16,7 +16,7 @@ body { /* modifying the body element*/
 }
 /*From index */
 .secondCat{
-    color: pink;
+    color: rgb(255, 255, 255);
 }
 /*from shrub.html */
 .dog1{
@@ -24,7 +24,7 @@ body { /* modifying the body element*/
 }
 
 a{
-    color:rgb(218, 183, 255);
+    color:rgb(214, 52, 125);
 }
 
 /*Animation for HELLO WORLD! in index.html*/
